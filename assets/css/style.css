@@ -870,6 +870,17 @@ a:hover {
   padding: 0;
 }
 
+.portfolio-details .portfolio-maintenance h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.portfolio-details .portfolio-maintenance p {
+  padding: 0;
+  margin-bottom: 5rem;
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
