@@ -24,11 +24,13 @@ h6 {
 
 a {
   color: #1e1e1e;
+  font-weight: bold;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
 a:hover {
   color: #0078ff;
+  font-weight: bold;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
