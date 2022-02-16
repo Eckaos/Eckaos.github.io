@@ -876,6 +876,22 @@ a:hover {
   margin-bottom: 20px;
 }
 
+.portfolio-details .portfolio-maintenance h3 {
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.portfolio-details .portfolio-maintenance h4 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.portfolio-details .portfolio-maintenance div {
+  margin-bottom: 5rem;
+}
+
 .portfolio-details .portfolio-maintenance p {
   padding: 0;
   margin-bottom: 5rem;
