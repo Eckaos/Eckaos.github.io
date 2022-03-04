@@ -21,7 +21,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="assets/css/fontawesome-free-5.15.4-web/css/all.css">
   <!-- =======================================================
   * Template Name: DevFolio - v4.7.1
   * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
@@ -95,8 +95,8 @@
               <h3>Information du projet</h3>
               <ul>
                 <li><strong>Catégorie</strong>: Web application</li>
-                <li><strong>URL pour télécharger</strong>: <a href="#">www.example.com</a></li>
-                <li><strong>URL du code source</strong>: <a href="#">www.example.com</a></li>
+                <li><strong>URL pour jouer</strong>: <a href="#">https://php.tlbail.fr/projet/index.php <i class="fas fa-link"></i></a></li>
+                <li><strong>URL du code source</strong>: <a href="#">https://github.com/TLBail/ProjetPhp <i class="fas fa-link"></i></a></li>
               </ul>
             </div>
             <div class="portfolio-description">
@@ -110,9 +110,30 @@
         </div>
         <div class="portfolio-maintenance">
           <h2>Maintenance</h2>
-          <div></div>
+          <div>
+            Pour cette maintenance, j'ai choisi d'ajouter une map qui qui permet de positionner les joueurs dans le monde.
+            Elle permet de d'attaquer un joueur en cliquant sur sa position.
+          </div>
           <h3>Veille Technologique</h3>
-          <div></div>
+          <div>
+            <h4>Langage côté serveur</h4>
+            <div>
+              Nous avons choisi PHP par rapport aux alternatives qu'il pouvait y avoir comme Python avec Django ou Ruby avec Ruby on Rails car le projet se déroulant sur une période courte, nous avons choisi le PHP que nous connaissions déjà et qui a une documentation fourni car étant un langage étant très utilisé.
+              Nous avons choisi de ne pas prendre de framework car même si nous connaissions déjà PHP nous ne le maitrisons pas assez. Étant quand même dans une démarche d'apprentissage, le PHP pur nous paraissait plus pertinent car ca nous permet d'apprendre le langage, ses particularités, et d'avoir des bases solides en PHP ce qui me parait nécessaire dans l'utilisation et l'apprentissage d'un framework.
+            </div>
+            
+            <h4>Stockage de données</h4>
+            <div>
+              Nous avons choisi de stocker nos données dans une base de données relationnelle car étant un jeu multijoueur, il faudra stocker beaucoup de données et elles seront souvent liées.
+              Les alternatives comme les fichiers JSON, XML ne sont donc pas une bonne idée.
+            </div>
+
+            <h4>Autre</h4>
+            <div>
+              Nous avons utilisé l'AJAX pour faire des requêtes non bloquante au serveur et donner une expérience de jeu agréable à l'utilisateur.
+              Il y a des alternatives comme les WebSocket cependant le professeur qui nous a donné ce projet universitaire nous avait donné la consigne d'utiliser AJAX obligatoirement.
+            </div>
+            </div>
         </div>
 
       </div>
