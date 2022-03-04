@@ -112,7 +112,12 @@
           <h2>Maintenance</h2>
           <div>
             Pour cette maintenance, j'ai choisi d'ajouter une map qui qui permet de positionner les joueurs dans le monde.
-            Elle permet de d'attaquer un joueur en cliquant sur sa position.
+            J'ai donc du créer une position aléatoire en PHP à chaque joueur qui est enregistré dans la base de données.
+            Pour cela j'ai créé deux nombres aléatoirement, j'en ai crée une chaine de caractère JSON que je stocke dans la base de données.
+            La map récupère les données JSON de la position. Ensuite la map affiche une maison à la position des joueurs qui sont entre offsetX;offsetY et  offsetX+14;offsetY+14.
+            Le joueur peut ensuite naviguer grâce aux flèches pour voir où sont les autres joueurs.
+            La map permet aussi de d'attaquer un joueur en cliquant sur sa position.
+            Il y a un tooltip pour chaque maison qui contient le nom du joueur qui est à cette position. Le tooltip s'affiche lorsque la souris passe une maison.
           </div>
           <h3>Veille Technologique</h3>
           <div>
